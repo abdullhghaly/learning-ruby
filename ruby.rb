@@ -1,1 +1,2 @@
-print "hello world"
+puts "using puts"
+print "using print"
