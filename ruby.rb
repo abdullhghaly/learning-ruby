@@ -1,2 +1,4 @@
-puts "using puts"
-print "using print"
+puts "   /|"
+puts "  / |"
+puts " /  |"
+puts "/___|"
