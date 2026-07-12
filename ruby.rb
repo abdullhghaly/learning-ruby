@@ -1,2 +1,5 @@
-your_name = "adbullh"
-puts ("hello " + your_name + " how are you doing")
+name = "abdullh"
+age = 21
+ismale = true
+have_a_job = false
+flaws = nil
