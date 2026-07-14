@@ -1,10 +1,18 @@
-puts "Enter a Color: "
-color = gets.chomp()
-puts "Enter a Plural Noun: "
-plural_noun = gets.chomp()
-puts "Enter a Name: "
-name = gets.chomp()
-
-puts ("Rose are "+color)
-puts (plural_noun+" Are Blue")
-puts ("I Love a "+name)
+fruits = Array["apple","orange","mango"]
+puts "Array index 0"
+puts fruits[0]
+puts "Array index -2"
+puts fruits[-2]
+fruits = Array.new
+fruits[0]="apple"
+fruits[2]="mango"
+puts "Array with index 1 empty"
+puts fruits
+fruits = Array["apple","orange","mango"]
+puts "is mango in Array , is mangos in Array"
+puts fruits.include? "mango"
+puts fruits.include? "mangos"
+puts "reverse Array"
+puts fruits.reverse
+puts "sort Array"
+puts fruits.sort
