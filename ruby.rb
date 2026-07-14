@@ -1,6 +1,5 @@
-print "hello what`s your name : "
-name = gets
-puts ("welcome "+name+", you are cool")
-print "hello what`s your name : "
-name = gets.chomp()
-puts ("welcome "+name+", you are cool")
+puts "Enter a Number"
+num1=gets.chomp.to_f
+puts "Enter a Number"
+num2=gets.chomp.to_f
+puts (num1+num2)
