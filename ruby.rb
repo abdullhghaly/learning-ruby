@@ -1,10 +1,15 @@
-name = " Abdullh ghaly     "
-puts name.upcase()
-puts name.downcase()
-puts name.strip()
-puts name.length()
-puts name.include? " gh"
-puts name.include? " ghs"
-puts name[7]
-puts name[1,13]
-puts name.index("y")
+puts 5 + 9
+puts 5 - 9
+puts 5 * 9
+puts 5 / 9.0
+puts 2**5
+puts 10 % 3
+num = 20
+puts ("my fav num is " + num.to_s)
+puts ( 50 + num)
+puts ( -20.abs )
+puts ( 20.6648.round)
+puts ( 20.6648.ceil)
+puts ( 20.6648.floor)
+puts ( Math.sqrt(36))
+puts ( Math.log(1))
