@@ -1,7 +1,8 @@
-def sayhi(name=nil,age=nil)
-  puts ("hello "+name+" you are "+age.to_s)
+def cube(num)
+  return num*num*num , 70
+
+  puts "hello"
 end
 
-puts "top"
-sayhi(name=gets.chomp() ,age=gets.chomp())
-puts "bottom"
+puts cube(3)[1]
+puts cube(3)[0]
