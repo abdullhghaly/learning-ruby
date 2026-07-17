@@ -1,18 +1,25 @@
-puts "Enter First number: "
-num1=gets.chomp().to_f
-puts "Enter an Operator: "
-op=gets.chomp()
-puts "Enter Second number: "
-num2=gets.chomp().to_f
+def get_day_name (day)
+  day_name = ""
+  case day
+  when "mon"
+    day_name = "monday"
+  when "tue"
+    day_name = "tuesday"
+  when "wed"
+    day_name = "wednsday"
+  when "thu"
+    day_name = "thursday"
+  when "fri"
+    day_name = "friday"
+  when "sat"
+    day_name = "saturday"
+  when "sun"
+    day_name = "sunday"
+  else
+    day_name="Invalid abbreviation"
+  end
 
-if op == "+"
-  puts (num1 + num2)
-elsif op == "-"
-  puts (num1 - num2)
-elsif op == "/"
-  puts (num1 / num2)
-elsif op == "*"
-  puts (num1 * num2)
-else 
-  puts "Invalid Operator"
+  return day_name
 end
+
+puts get_day_name(gets.chomp)
